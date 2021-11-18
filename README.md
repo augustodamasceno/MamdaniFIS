@@ -1,2 +1,2 @@
 # MamdaniFIS
-Mamdani Fuzzy Inference System
+A Mamdani Fuzzy Inference System
