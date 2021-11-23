@@ -1,3 +1,14 @@
+# Software Binary
+mamdanifis
+src/mamdanifis
+
+# Tests
+*.test
+
+# IDEs and Editors files
+vscode_backup/
+.vscode/
+
 # Prerequisites
 *.d
 
