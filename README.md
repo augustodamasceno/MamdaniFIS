@@ -19,7 +19,7 @@ A Mamdani Fuzzy Inference System
 | **plot** | Data visualization | 
 | **extras** | Pre-generated data and configurations for IDEs and editors  | 
 
-## Types of Membership_Functions
-<a href="https://github.com/augustodamasceno/MamdaniFIS/blob/main/plot/examples/Membership_Functions.png"><img src="https://github.com/augustodamasceno/MamdaniFIS/blob/main/plot/examples/Membership_Functions.png"></a>
+## Types of Membership Functions
+<a href="https://raw.githubusercontent.com/augustodamasceno/MamdaniFIS/shell/plot/examples/Membership_Functions.png"><img src="https://raw.githubusercontent.com/augustodamasceno/MamdaniFIS/shell/plot/examples/Membership_Functions.png"></a>
  
 > This software is licensed under the [BSD-2-Clause](https://spdx.org/licenses/BSD-2-Clause.html)
