@@ -70,3 +70,27 @@ float mfGaussian(Gaussian * gauss, float x){
     return exp( -1.0*pow(x-gauss->mean, 2.0)
         / (2.0*pow(gauss->std, 2.0)) );
 }
+
+
+/* Logical Operators Processors */
+float orMax(float xA, float xB){
+    return max(xA, xB);
+}   
+
+float andMin(float xA, float xB){
+    return min(xA, xB);
+}   
+
+float not(float x){
+    return 1.0-x;
+}
+
+float orSumProd(float xA, float xB){
+    return xA*xB
+};
+
+float andProd(float xA, float xB){}
+
+float orProbabilistic(float xA, float xB){
+    return xA+xB - xA*xB;
+}

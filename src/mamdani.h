@@ -9,7 +9,7 @@
 
 /* For all the implementations:
     Consider that x is a value that belongs to the universal set.
-    All data is normalized, therefore x = [0, 1].
+    The Fuzzy Sets are Type-1.
     Height is always 1.
 */
 
@@ -22,10 +22,12 @@
 /* Logical Operators */
 #define LO_OR_MAX 100
 #define LO_AND_MIN 101
-#define LO_NOT_COMPLEMENT 102
+#define LO_NOT 102
 #define LO_OR_SUM_PROD 103
 #define LO_AND_PROD 104
 #define LO_OR_PROBABILISTIC 105
+#define max(A, B) ((A) > (B) ? (A) : (B))
+#define min(A, B) ((A) < (B) ? (A) : (B))
 
 
 /* Structs and Data Types for the Membership Functions */
@@ -84,5 +86,14 @@ Gaussian * newGaussian(float mean, float std);
 float mfTriangle(Triangle * triang, float x);
 float mfTrapezoidal(Trapezoidal * trapez, float x);
 float mfGaussian(Gaussian * gauss, float x);
+
+
+/* Logical Operators Processors */
+float orMax(float xA, float xB);
+float andMin(float xA, float xB);
+float not(float x);
+float orSumProd(float xA, float xB);
+float andProd(float xA, float xB);
+float orProbabilistic(float xA, float xB);
 
 #endif /* _MAMDANI_H */
